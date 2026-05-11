@@ -1,15 +1,35 @@
 # CTF Writeups
 
-Mes writeups CTF, classés par plateforme.
-
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+![Writeups](https://img.shields.io/badge/writeups-13-success)
+![FCSC 2026](https://img.shields.io/badge/FCSC%202026-10-blue)
+![TryHackMe](https://img.shields.io/badge/TryHackMe-3-2dccff)
 
-## Plateformes
+Forensics Zeek et auditd, reverse Xtensa sur ESP32, exploitation du cache CPython, hardware BLE, web SSRF. Mes writeups CTF, classés par plateforme.
+
+## Sommaire
 
 | Plateforme | Année | Writeups | Index |
 |---|---|---|---|
 | FCSC (ANSSI) | 2026 | 10 | [fcsc/2026](fcsc/2026/) |
 | TryHackMe | 2023 | 3 | [tryhackme](tryhackme/) |
+
+## Par catégorie
+
+| Catégorie | Writeups |
+|---|---:|
+| Forensics | 5 |
+| Hardware | 2 |
+| Crypto | 1 |
+| Reverse | 1 |
+| Web | 1 |
+| TryHackMe (boot2root) | 3 |
+
+## À lire en premier
+
+- **[Grhelp - Connect back](fcsc/2026/grhelp-connectback/)** : un binaire Chisel renommé `update` se cache dans des logs auditd. SOCKS reverse, SFTP upload, lateral movement via `sshpass`.
+- **[This is fine](fcsc/2026/this-is-fine/)** : 38 polynômes à coefficients géants. Le piège est le cache CPython des petits entiers et l'opérateur `is`. Bisection pour faire tomber un polynôme dans `[-5, 256]`.
+- **[Web Logs](fcsc/2026/web-logs/)** : 25k lignes de log Apache. L'attaque qui réussit se repère au byte près sur la taille de réponse.
 
 ## Langues
 
@@ -17,7 +37,10 @@ Les writeups FCSC sont en français, ceux de TryHackMe en anglais. Chaque platef
 
 ## Reproduire les challenges
 
-Les fichiers de challenges ne sont pas dans ce repo. Pour FCSC, tout est archivé sur [hackropole.fr](https://hackropole.fr) et sur l'orga [FCSC-FR](https://github.com/FCSC-FR). Pour TryHackMe, chaque writeup linke sa room.
+Les fichiers de challenge ne sont pas dans ce repo.
+
+- **FCSC** : archive officielle sur [hackropole.fr](https://hackropole.fr), sources sur [github.com/FCSC-FR](https://github.com/FCSC-FR)
+- **TryHackMe** : chaque writeup linke sa room
 
 ## Disclaimer
 

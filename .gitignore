@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local Claude tooling
+.claude/
+
+# Challenge artifacts (we don't redistribute — link to Hackropole / FCSC-FR instead)
+*.tar.gz
+*.tar.xz
+*.zip
+*.csv.gz
+*.log.gz
+*.bin
+*.elf
+*.exe
+*.iso
+*.pcap
+*.pcapng
+*.duckdb

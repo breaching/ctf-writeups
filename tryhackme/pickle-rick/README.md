@@ -10,7 +10,7 @@
 
 | Machine Name | Room URL | Difficulty |
 | :--: | :--: | :--: |
-| <b>Daily Bugle</b> | <a href="https://tryhackme.com/room/picklerick">https://tryhackme.com/room/picklerick</a> | <img src="../img/green.png" alt="Logo 1" width="30">
+| <b>Pickle Rick</b> | <a href="https://tryhackme.com/room/picklerick">https://tryhackme.com/room/picklerick</a> | <img src="../img/green.png" alt="Logo 1" width="30">
 
 <img src="https://tryhackme-badges.s3.amazonaws.com/670.png" alt="TryHackMe">
 

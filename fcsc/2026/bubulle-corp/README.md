@@ -1,4 +1,4 @@
-# Bubulle Corp (Part 1/2) - 300 points
+# Bubulle Corp (Part 1/2)
 
 ## Énoncé
 > Bubulle Corp recrute ! Rejoignez notre équipe d'experts marins et aidez-nous à surveiller les opérations en haute mer depuis notre tout nouveau tableau de bord.
